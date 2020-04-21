@@ -1,0 +1,97 @@
+{
+  "organizations": [
+    {
+      "taxId": "123456123456",
+      "legalEntity": {
+        "shortName": "Альянс, ООО",
+        "fullName": "Общество с ограниченной ответственностью \"Альянс\"",
+        "description": "Оптовая торговля станками",
+        "email": "rb@stankialiance.ru",
+        "phone": "8 (495) 741-59-15",
+        "numberOfEmployees": "480",
+        "address": "111123, г. Москва, ул. Плеханова, д. 4А, КОМНАТА 14К",
+        "site": "http://stankialiance.ru/"
+      },
+      "generalManager": {
+        "name": "Крылов Михаил Николаевич",
+        "email": "krilov@mail.ru",
+        "phone": "+7 916 741-59-15"
+      },
+      "founders": ["Крылов Андрей Михайлович", "Иванов Сергей Юрьевич"], 
+      "statistics": {
+        "revenueСurrency": "млрд руб.",
+        "revenue": ["0.56", "0.35", "0.4", "0.4", "0.5"],
+        "profitСurrency": "млн руб.",
+        "profit": ["12.4", "16.3", "11.4", "13.0", "14.5"]
+      },
+      "stateProcurement": {
+        "participant": "Участник",
+        "participantCount": "10",
+        "winner": "Выиграл",
+        "winnertCount": "4"
+      }
+    },
+    {
+      "taxId": "567890567890",
+      "legalEntity": {
+        "shortName": "Промстрой, ООО",
+        "fullName": "Общество с ограниченной ответственностью \"Промстрой\"",
+        "description": "нет данных",
+        "email": "promcnroy@mail.ru",
+        "phone": "8 (495) 784-76-15",
+        "numberOfEmployees": "1340",
+        "address": "117279, г.Москва, ул.Миклухо-Маклая, д.34",
+        "site": "stankialiance.ru"
+      },
+      "generalManager": {
+        "name": "Лапчевский Денис Николаевич",
+        "email": "lapchevskiy@mail.ru",
+        "phone": "нет данных"
+      },
+      "founders": ["Лапчевский Денис Николаевич", "Лысаков Роман Александрович"],
+      "statistics": {
+        "revenueСurrency": "млрд руб.",
+        "revenue": ["0.4", "0.33", "0.4", "0.4", "0.5"],
+        "profitСurrency": "млн руб.",
+        "profit": ["16.4", "15.3", "13.4", "16.0", "17.5"]
+      },
+      "stateProcurement": {
+        "participant": "Участник",
+        "participantCount": "27",
+        "winner": "Выиграл",
+        "winnertCount": "26"
+      }
+    },
+    {
+      "taxId": "135792468012",
+      "legalEntity": {
+        "shortName": "Контакт, ООО",
+        "fullName": "Общество с ограниченной ответственностью \"Контакт\"",
+        "description": "Оптовая торговля станками",
+        "email": "rb@stankialiance.ru",
+        "phone": "8 (495) 507-36-25",
+        "numberOfEmployees": "780",
+        "address": "119285, Москва г, ул.Мосфильмовская, д.4",
+        "site": "stankialiance.ru"
+      },
+      "generalManager": {
+        "name": "Чернова Оксана Александровна",
+        "email": "chernova@mail.ru",
+        "phone": "+7 916 507-36-25"
+      },
+      "founders": ["Чернова Оксана Александровна", "Иванов Сергей Юрьевич"],
+      "statistics": {
+        "revenueСurrency": "млрд руб.",
+        "revenue": ["0.4", "0.3", "0.4", "0.4", "0.5"],
+        "profitСurrency": "млн руб.",
+        "profit": ["12.4", "16.3", "11.4", "13.0", "14.5"]
+      },
+      "stateProcurement": {
+        "participant": "Участник",
+        "participantCount": "нет данных",
+        "winner": "Выиграл",
+        "winnertCount": "нет данных"
+      }
+    }
+  ]
+}
