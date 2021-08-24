@@ -1,15 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Admin panel
 
-## Dependency Installation
+Admin panel where you can check information about company.
+For example, organization structure, income level, contact details etc.
 
-### `yarn`
-
-## Available Scripts
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
+### Runs the app in the development mode
+npm i
+npm run start
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-
+### tech stack
+React (CRA)\
+MaterializeCSS\
+Chart.js\
+Data from JSON file
