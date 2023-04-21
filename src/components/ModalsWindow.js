@@ -18,7 +18,6 @@ export class ModalsWindow extends Component {
   render() {
     return (
       <>
-      {/* <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> */}
       <div id="modal1" className={this.props.show ? 'modal open modal-fixed-footer' : 'modal modal-fixed-footer'} style={modalWindowStyle}>
         <div className="modal-content" style={{padding: '40px'}}>
           <h4>Ошибка! </h4>
