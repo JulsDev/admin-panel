@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier:check": "prettier --check .",
-    "prettier:fix": "lint-staged"
+    "prettier:fix": "lint-staged",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
