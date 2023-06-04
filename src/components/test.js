@@ -6,9 +6,3 @@ const TestFile = () => {
   return <div className='svsvnfnk'>Hello my friend!</div>
 }
 export default TestFile
-
-
-
-
-
-
