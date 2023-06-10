@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier:check": "prettier --check .",
-    "prettier:fix": "lint-staged"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,7 +30,10 @@
     }
   },
   "lint-staged": {
-    "**/*": "prettier --write"
+    "*.{js,json,css,scss,html,md}": [
+      "prettier --write --ignore-unknown",
+      "git add"
+    ]
   },
   "browserslist": {
     "production": [
@@ -45,7 +48,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.8",
+    "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
   }
